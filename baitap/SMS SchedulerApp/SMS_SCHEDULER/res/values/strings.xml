@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">SMS_SCHEDULER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_new_sms">New_sms</string>
+    <string name="title_activity_add_sms">Add_sms</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Message">Message</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_sett_sms">Sett_sms</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_mesage_tempt">Mesage_tempt</string>
+    <string name="title_activity_contact_backup">Contact_backup</string>
+    <string name="title_activity_list">List</string>
+    
+</resources>

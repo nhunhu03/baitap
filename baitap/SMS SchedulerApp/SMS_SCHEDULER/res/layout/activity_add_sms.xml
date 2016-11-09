@@ -1,0 +1,56 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smsbg" >
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="133dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="265dp"
+        android:layout_y="131dp"
+        android:onClick="oncat"
+        android:src="@drawable/contacts" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_x="99dp"
+        android:layout_y="198dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="304dp"
+        android:onClick="onreset"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="302dp"
+        android:onClick="onclick"
+        android:text="Send" />
+
+</AbsoluteLayout>

@@ -1,0 +1,36 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_vertical"
+    android:background="@drawable/bg1" >
+
+    <ImageView
+        android:id="@+id/m1"
+        android:layout_width="384dp"
+        android:layout_height="105dp"
+        android:layout_x="41dp"
+        android:layout_y="302dp"
+        android:onClick="onclick"
+        android:src="@drawable/sms" />
+
+    <ImageView
+        android:id="@+id/m2"
+        android:layout_width="386dp"
+        android:layout_height="108dp"
+        android:layout_x="39dp"
+        android:layout_y="398dp"
+        android:onClick="onclick"
+        android:src="@drawable/sett" />
+
+    <ImageView
+        android:id="@+id/m3"
+        android:layout_width="372dp"
+        android:layout_height="114dp"
+        android:layout_x="48dp"
+        android:layout_y="488dp"
+        android:onClick="onclick"
+        android:src="@drawable/list" />
+
+</AbsoluteLayout>

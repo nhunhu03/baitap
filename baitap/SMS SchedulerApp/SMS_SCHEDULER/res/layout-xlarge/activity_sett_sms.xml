@@ -1,0 +1,58 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st_bg" >
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="407dp"
+        android:layout_height="75dp"
+        android:layout_x="308dp"
+        android:layout_y="207dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="389dp"
+        android:layout_height="81dp"
+        android:layout_x="314dp"
+        android:layout_y="484dp"
+        android:ems="10"
+        android:inputType="date"
+        android:onClick="ondateset" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="371dp"
+        android:layout_height="81dp"
+        android:layout_x="314dp"
+        android:layout_y="765dp"
+        android:ems="10"
+        android:inputType="time"
+        android:onClick="onsettime" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="415dp"
+        android:layout_height="137dp"
+        android:layout_x="304dp"
+        android:layout_y="296dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="284dp"
+        android:layout_height="80dp"
+        android:layout_x="231dp"
+        android:layout_y="1061dp"
+        android:onClick="onclick"
+        android:src="@drawable/ok" />
+
+</AbsoluteLayout>
